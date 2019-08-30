@@ -34,14 +34,6 @@
           {
             "resourceName": "apigusEast1TestAPItestany",
             "config": {}
-          },
-          {
-            "resourceName": "s3as2TestLahiru",
-            "config": {
-              "type": "s3:ObjectCreated:*",
-              "keyPrefix": "",
-              "keySuffix": ""
-            }
           }
         ]
       }
@@ -87,17 +79,6 @@
           "stageDeploymentId": "qtlfty",
           "mode": 1
         }
-      },
-      "s3as2TestLahiru": {
-        "name": "s3as2TestLahiru",
-        "type": "S3",
-        "config": {
-          "mode": 1,
-          "bucket": {
-            "region": "us-east-1",
-            "name": "as2-test-lahiru"
-          }
-        }
       }
     },
     "customTemplate": {
@@ -125,7 +106,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1567159405443
+    "lastSave": 1567159461966
   },
   "VCS_STATE": {
     "provider": "GitHub",
