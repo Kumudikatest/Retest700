@@ -1,0 +1,118 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "52a1958e-c012-4d6a-ad96-156a2928f89b": {
+        "id": "52a1958e-c012-4d6a-ad96-156a2928f89b",
+        "parent": null,
+        "name": "Retest700",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "d8b154e6-92c9-41bc-b8b9-d4c140063119"
+        ],
+        "isRemovable": false,
+        "filePath": "Retest700"
+      },
+      "d8b154e6-92c9-41bc-b8b9-d4c140063119": {
+        "id": "d8b154e6-92c9-41bc-b8b9-d4c140063119",
+        "parent": "52a1958e-c012-4d6a-ad96-156a2928f89b",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "Retest700/lambda.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "config": {
+          "runtime": "nodejs8.10",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": [
+          {
+            "resourceName": "apigusEast1TestAPItestany",
+            "config": {}
+          }
+        ]
+      }
+    },
+    "deletedFiles": [],
+    "rootNode": "52a1958e-c012-4d6a-ad96-156a2928f89b",
+    "openFiles": [
+      "d8b154e6-92c9-41bc-b8b9-d4c140063119"
+    ],
+    "currentFileId": "d8b154e6-92c9-41bc-b8b9-d4c140063119",
+    "resources": {
+      "apigusEast1TestAPItestany": {
+        "name": "apigusEast1TestAPItestany",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "us-east-1",
+          "apiMode": 1,
+          "apiName": "TestAPI",
+          "apiId": "0itznun7w3",
+          "endpointType": "EDGE",
+          "rootResourceId": "h2lelj6j7k",
+          "existingResources": {
+            "/test": "1aztfv",
+            "/test/janaka": "3zhfku",
+            "/MyLambda": "98nqbj",
+            "/test/foo": "alrh6s",
+            "/": "h2lelj6j7k",
+            "/newchange/test": "k6pdhn",
+            "/newchange": "q1ox7l",
+            "/testWithSlash": "q4m4g1",
+            "/testtwospeciallambda": "q4szm3",
+            "/testtwospecialkumutest": "wey3lk"
+          },
+          "resourceMode": 1,
+          "resourcePath": "/test",
+          "resourceName": "test",
+          "resourceId": "1aztfv",
+          "restMethod": "ANY",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 1,
+          "stageName": "test",
+          "stageDeploymentId": "qtlfty",
+          "mode": 1
+        }
+      }
+    },
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "Retest700",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1567159152157
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "Retest700",
+      "url": "https://github.com/Kumudikatest/Retest700"
+    }
+  }
+}
